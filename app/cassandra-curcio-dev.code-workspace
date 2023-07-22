@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../cassandra-curcio/components"
+		}
+	],
+	"settings": {}
+}
