@@ -5,6 +5,7 @@ export interface ProjectModel {
   title: string;
   subtitle: string;
   description: string;
+  tech: string;
   image_url: string | StaticImport | undefined;
   live_url: string;
   github_url: string;

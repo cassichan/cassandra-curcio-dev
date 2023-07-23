@@ -21,10 +21,12 @@ export default function Hero() {
           </h1>
           <p className="mb-8 leading-relaxed font-medium text-gray-300">
             Software Engineer with a background in Healthcare and Project
-            Management.
-            <br className="hidden lg:inline-block" />
-            In love with solving meaningful problems with code!
+            Management 👩‍💻{" "}
           </p>
+          <br className="hidden lg:inline-block" />
+          {/* <p className="mb-8 leading-relaxed font-medium text-gray-300">
+            In love with solving meaningful problems with code!
+          </p> */}
           <div className="flex justify-center">
             <a
               href="https://docs.google.com/document/d/15GM5uc_WCekFqrclNi2-AW8xl1Y2qdjvGTno2DbRWsw/edit?usp=sharing"
@@ -36,7 +38,7 @@ export default function Hero() {
               </button>
             </a>
             <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-              Skills
+              About me
             </button>
           </div>
         </div>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import { ProjectProps} from "./Projects";
 import { ProjectModel } from "../models/projectModel";
 
 export interface ProjectProps {
@@ -11,9 +10,9 @@ export interface ProjectProps {
 export default function Project({ project }: ProjectProps) {
   return (
     <div className="xl:w-1/4 md:w-1/2 p-4">
-      <div className="bg-gray-100 p-6 rounded-lg">
+      <div className="bg-gray-100 p-6 rounded-lg min-h-full">
         <Image
-          className="h-40 rounded w-full object-cover object-center mb-6"
+          className="h-120 rounded w-full object-cover object-center mb-6"
           src={project.image_url ? project.image_url : "/../public/Yaizu.jpeg"}
           alt="content"
           height={500}
@@ -26,6 +25,8 @@ export default function Project({ project }: ProjectProps) {
           {project.subtitle}
         </h2>
         <p className="leading-relaxed text-base">{project.description}</p>
+        <br/>
+        <p className="leading-relaxed text-base">{project.tech}</p>
       </div>
     </div>
   );
