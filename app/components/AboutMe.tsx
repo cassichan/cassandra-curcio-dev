@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Socials from './shared/Socials';
 
 export default function AboutMe() {
 	return (
@@ -32,6 +33,7 @@ export default function AboutMe() {
 							<br className="hidden lg:inline-block" />
 							Aside from coding, I&apos;m a huge Nintendo, Food, and Animal lover. I&apos;m currently looking for my next career opportunity. Please reach out to see how I can help your team!
 						</p>
+						<Socials />
 					</div>
 				</div>
 			</div>
