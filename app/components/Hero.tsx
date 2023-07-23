@@ -32,14 +32,14 @@ export default function Hero() {
 						<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">About me</button>
 					</div>
 					<br className="hidden lg:inline-block" />
-					<div className="flex mt-10">
+					<div className="flex mt-8">
 						<a
 							href="https://github.com/cassichan"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<Image
-								className="m-3 hover:scale-105"
+								className="m-2 hover:scale-105"
 								alt="github logo"
 								src="/../public/socials/github-mark-white.png"
 								height={30}
@@ -47,14 +47,14 @@ export default function Hero() {
 							/>
 						</a>
 						<a
-							href="mailto:cassandra.curcio@gmail.com"
+							href="https://medium.com/@cassandra.curcio"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							<Image
-								className="m-3 hover:scale-105"
-								alt="email icon"
-								src="/../public/socials/email.png"
+								className="mt-5 ml-2 mr-2 hover:scale-105"
+								alt="linked-in logo"
+								src="/../public/socials/medium.png"
 								height={30}
 								width={55}
 							/>
@@ -65,9 +65,22 @@ export default function Hero() {
 							rel="noopener noreferrer"
 						>
 							<Image
-								className="mt-5 ml-3 mr-3 hover:scale-105"
+								className="mt-5 ml-2 mr-2 hover:scale-105"
 								alt="linked-in logo"
 								src="/../public/socials/ln-white-1.png"
+								height={30}
+								width={55}
+							/>
+						</a>
+						<a
+							href="mailto:cassandra.curcio@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Image
+								className="ml-2 mr-2 mt-3 hover:scale-105"
+								alt="email icon"
+								src="/../public/socials/email.png"
 								height={30}
 								width={55}
 							/>

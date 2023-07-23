@@ -5,7 +5,7 @@ export const projects = [
 		subtitle: 'React Web App for Animal Adoption and Rescue',
 		description:
 			'Chance 4 Pets is a full stack React web app that allows users to view animals available for adoption from several local animal rescues, create an account, login, favorite animals, as well as to report an animal in need of shelter intake',
-		tech: 'Technologies used: React, MongoDB, GCP, Node.js, Express',
+		tech: 'Technologies used: React, CSS, Ant Design, MongoDB, GCP, Node.js, Express',
 		image_url: '/../public/chance_4_pets_2.png',
 		live_url: 'https://animal-rescue-frontend-js.web.app/',
 		github_url: 'https://github.com/cassichan/animal-rescue-frontend',
@@ -15,7 +15,7 @@ export const projects = [
 		title: 'Love Thy Neighbor ❤️',
 		subtitle: 'Full Stack React Web App for Submitting and Viewing Love Letters',
 		description: 'Love Thy Neighbor is a React web app that allows users to create and view love letters',
-		tech: 'Technologies used: React, GCP, Node.js, Express',
+		tech: 'Technologies used: React, CSS, Ant Design, GCP, Node.js, Express',
 		image_url: '/../public/love_thy_neighbor_3.png',
 		live_url: 'https://love-letter-web-cc.web.app/',
 		github_url: 'https://github.com/cassichan/love-letter-react',
