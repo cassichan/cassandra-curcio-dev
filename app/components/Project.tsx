@@ -2,10 +2,9 @@ import Image from "next/image";
 import { ProjectModel } from "../models/projectModel";
 
 export interface ProjectProps {
-    key: number;
-    project: ProjectModel;
-  }
-  
+  key: number;
+  project: ProjectModel;
+}
 
 export default function Project({ project }: ProjectProps) {
   return (
@@ -25,7 +24,7 @@ export default function Project({ project }: ProjectProps) {
           {project.subtitle}
         </h2>
         <p className="leading-relaxed text-base">{project.description}</p>
-        <br/>
+        <br />
         <p className="leading-relaxed text-base">{project.tech}</p>
       </div>
     </div>

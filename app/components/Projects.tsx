@@ -20,7 +20,7 @@ export default function Projects() {
 
         <div className="flex flex-wrap -m-4">
           {projects.map((oneProject: ProjectModel) => (
-            <Project key={oneProject.id} project={oneProject} />
+            <Project key={oneProject.id} project={oneProject}/>
           ))}
         </div>
       </div>
