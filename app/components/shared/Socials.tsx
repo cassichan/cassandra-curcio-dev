@@ -22,7 +22,7 @@ export default function Socials() {
 				rel="noopener noreferrer"
 			>
 				<Image
-					className="mt-5 ml-2 mr-2 hover:scale-105"
+					className="mt-3 ml-2 mr-2 hover:scale-105"
 					alt="linked-in logo"
 					src="/../public/socials/medium.png"
 					height={30}
@@ -50,7 +50,7 @@ export default function Socials() {
 				<Image
 					className="ml-2 mr-2 mt-3 hover:scale-105"
 					alt="email icon"
-					src="/../public/socials/email.png"
+					src="/../public/socials/email-white.png"
 					height={30}
 					width={55}
 				/>

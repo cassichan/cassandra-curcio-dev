@@ -1,5 +1,7 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Socials from './shared/Socials';
+import Buttons from './shared/Buttons';
 
 export default function Hero() {
 	return (
@@ -22,18 +24,19 @@ export default function Hero() {
 					</h1>
 					<p className="mb-2 leading-relaxed font-medium text-gray-300">I&apos;m a Florida-based Software Engineer with a background in Healthcare and Project Management 👩‍💻 </p>
 					<p className="mb-8 leading-relaxed font-medium text-gray-300">I am looking for my next career opportunity. Please reach out to see how I can help your team!</p>
-					<div className="flex justify-center">
-						<a
-							href="https://docs.google.com/document/d/15GM5uc_WCekFqrclNi2-AW8xl1Y2qdjvGTno2DbRWsw/edit?usp=sharing"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<button className="inline-flex text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg">Resume</button>
-						</a>
+					<Buttons />
+					{/* <a
+						href="https://docs.google.com/document/d/15GM5uc_WCekFqrclNi2-AW8xl1Y2qdjvGTno2DbRWsw/edit?usp=sharing"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<button className="inline-flex text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg">Resume</button>
+					</a>
+					<Link href="/about">
 						<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">About me</button>
-					</div>
+					</Link> */}
 					<br className="hidden lg:inline-block" />
-					<Socials/>
+					<Socials />
 				</div>
 			</div>
 		</section>
