@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Socials from '../components/shared/Socials';
-import Buttons from '../components/shared/Buttons';
+// import Buttons from '../components/shared/Buttons';
 
 export default function About() {
 	return (
@@ -39,7 +39,7 @@ export default function About() {
 						I&apos;m currently looking for my next career opportunity. Please reach out to see how I can help your team!
 					</p>
 					<div className="flex justify-center">
-						{/* <a
+						<a
 							href="https://docs.google.com/document/d/15GM5uc_WCekFqrclNi2-AW8xl1Y2qdjvGTno2DbRWsw/edit?usp=sharing"
 							target="_blank"
 							rel="noopener noreferrer"
@@ -48,8 +48,8 @@ export default function About() {
 						</a>
 						<Link href="/">
 							<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Projects</button>
-						</Link> */}
-						<Buttons/>
+						</Link>
+						{/* <Buttons/> */}
 					</div>
 					<br className="hidden lg:inline-block" />
 					<Socials />
