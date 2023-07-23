@@ -23,10 +23,10 @@ export default function Hero() {
             Software Engineer with a background in Healthcare and Project
             Management 👩‍💻{" "}
           </p>
-          <br className="hidden lg:inline-block" />
-          {/* <p className="mb-8 leading-relaxed font-medium text-gray-300">
-            In love with solving meaningful problems with code!
-          </p> */}
+          <p className="mb-8 leading-relaxed font-medium text-gray-300">
+            I am looking for my next career opportunity so please reach out to
+            see how I can help your team!
+          </p>
           <div className="flex justify-center">
             <a
               href="https://docs.google.com/document/d/15GM5uc_WCekFqrclNi2-AW8xl1Y2qdjvGTno2DbRWsw/edit?usp=sharing"

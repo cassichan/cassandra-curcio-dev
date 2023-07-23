@@ -14,7 +14,7 @@ export default function Projects() {
             <div className="h-1 w-20 bg-teal-500 rounded"></div>
           </div>
           <p className="lg:w-1/2 w-full leading-relaxed text-gray-300">
-            I&apos;m in love with code, specifically using it to solve meaningful problems and improve the lives of others. Front-end is my jam, though I love working on both the front and back end of an application. I am looking for my next career opportunity so please reach out to see how I can help your team!
+            I am passionate about code, specifically using it to bring joy to others, improve lives, and solve meaningful problems. Front-end is my fave, although I enjoy working on both the front and back end of an application.
           </p>
         </div>
 
