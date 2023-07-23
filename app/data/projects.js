@@ -53,7 +53,7 @@ export const projects = [
 	{
 		id: 6,
 		title: "'Image Editor' for Goin-Travel.co 📷",
-		subtitle: 'Initial prototype for a browser-based image editor feature',
+		subtitle: 'Initial Prototype for a Browser-based Image Editor Feature',
 		description: 'Allows users to rotate, flip, grayscale, and download various file types of images. Further UX/UI design and functionality to be implemented in future iterations',
 		tech: 'Technologies used: Angular, HTML, SCSS, Photon',
 		image_url: '/../public/goin_image_editor.png',

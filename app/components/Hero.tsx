@@ -39,7 +39,7 @@ export default function Hero() {
 							rel="noopener noreferrer"
 						>
 							<Image
-								className="m-3"
+								className="m-3 hover:scale-105"
 								alt="email"
 								src="/../public/socials/github-mark-white.png"
 								height={30}
@@ -52,7 +52,7 @@ export default function Hero() {
 							rel="noopener noreferrer"
 						>
 							<Image
-								className="m-3"
+								className="m-3 hover:scale-105"
 								alt="email"
 								src="/../public/socials/email.png"
 								height={30}
@@ -65,7 +65,7 @@ export default function Hero() {
 							rel="noopener noreferrer"
 						>
 							<Image
-								className="mt-5 ml-3 mr-3"
+								className="mt-5 ml-3 mr-3 hover:scale-105"
 								alt="email"
 								src="/../public/socials/ln-white-1.png"
 								height={30}
