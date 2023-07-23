@@ -12,7 +12,7 @@ export default function Project({ project }: ProjectProps) {
       <div className="bg-gray-100 p-6 rounded-lg min-h-full">
         <Image
           className="h-120 rounded w-full object-cover object-center mb-6"
-          src={project.image_url ? project.image_url : "/../public/Yaizu.jpeg"}
+          src={project.image_url ? project.image_url : "/../public/coming_soon.jpeg"}
           alt="content"
           height={500}
           width={720}
