@@ -1,4 +1,8 @@
 import Image from 'next/image';
+import github from '../../../public/github1.png';
+import medium from '../../../public/medium1.png';
+import linkedin from '../../../public/ln-white-11.png';
+import email from '../../../public/email-white1.png';
 
 export default function Socials() {
 	return (
@@ -11,7 +15,8 @@ export default function Socials() {
 				<Image
 					className="m-2 hover:scale-105"
 					alt="github logo"
-					src="/../public/github1.png"
+					// src="/../public/github1.png"
+					src={github}
 					height={30}
 					width={55}
 				/>
@@ -24,7 +29,8 @@ export default function Socials() {
 				<Image
 					className="mt-3 ml-2 mr-2 hover:scale-105"
 					alt="linked-in logo"
-					src="/../public/medium1.png"
+					// src="/../public/medium1.png"
+					src={medium}
 					height={30}
 					width={55}
 				/>
@@ -37,7 +43,8 @@ export default function Socials() {
 				<Image
 					className="mt-5 ml-2 mr-2 hover:scale-105"
 					alt="linked-in logo"
-					src="/../public/ln-white-11.png"
+					// src="/../public/ln-white-11.png"
+					src={linkedin}
 					height={30}
 					width={55}
 				/>
@@ -50,7 +57,8 @@ export default function Socials() {
 				<Image
 					className="ml-2 mr-2 mt-3 hover:scale-105"
 					alt="email icon"
-					src="/../public/email-white1.png"
+					// src="/../public/email-white1.png"
+					src={email}
 					height={30}
 					width={55}
 				/>
