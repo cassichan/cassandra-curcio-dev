@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import headshot2 from '../../public/spike_cass1.jpeg';
 
 export default function AboutHero() {
 	return (
@@ -9,7 +10,7 @@ export default function AboutHero() {
 					<Image
 						className="object-cover object-center rounded"
 						alt="headshot with cat"
-						src="/../public/spike_cass1.jpeg"
+						src={headshot2}
 						height={500}
 						width={720}
 					/>

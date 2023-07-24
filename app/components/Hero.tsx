@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Socials from './shared/Socials';
+import headshot1 from '../../public/headshot_cropped1.jpeg';
 
 export default function Hero() {
 	return (
@@ -10,7 +11,7 @@ export default function Hero() {
 					<Image
 						className="object-cover object-center rounded"
 						alt="hero"
-						src="/../public/headshot_cropped1.jpeg"
+						src={headshot1}
 						height={500}
 						width={720}
 					/>
