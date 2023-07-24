@@ -9,7 +9,7 @@ export default function AboutHero() {
 					<Image
 						className="object-cover object-center rounded"
 						alt="headshot with cat"
-						src="/../public/static/spike_cass.jpeg"
+						src="/../public/static/spike_cass1.jpeg"
 						height={500}
 						width={720}
 					/>
