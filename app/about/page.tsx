@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Socials from '../components/shared/Socials';
+import ScrollUp from '../components/shared/ScrollUp';
 
 export default function About() {
 	return (
@@ -32,8 +33,7 @@ export default function About() {
 						I bring with me a firm understanding of the Software Development Life Cycle, User Experience and Team Collaboration. I&apos;m passionate about building accessible, intuitive, and inclusive
 						applications and fostering fun and efficient work environments.
 					</p>
-					<p className="mb-8 leading-relaxed font-medium text-gray-300">Aside from my love for code, I&apos;m a huge Nintendo, Food, and Animal lover.
-					</p>
+					<p className="mb-8 leading-relaxed font-medium text-gray-300">Aside from my love for code, I&apos;m a huge Nintendo, Food, and Animal lover.</p>
 					<p className="mb-10 leading-relaxed font-medium text-gray-300">I&apos;m currently looking for my next career opportunity. Please reach out to see how I can help your team!</p>
 					<div className="flex justify-center">
 						<a
@@ -51,6 +51,7 @@ export default function About() {
 					<Socials />
 				</div>
 			</div>
+			<ScrollUp />
 		</section>
 	);
 }
