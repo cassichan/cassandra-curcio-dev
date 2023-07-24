@@ -10,7 +10,7 @@ export default function Hero() {
 					<Image
 						className="object-cover object-center rounded"
 						alt="hero"
-						src="/../public/headshot_cropped.jpeg"
+						src="/../public/static/headshot_cropped.jpeg"
 						height={500}
 						width={720}
 					/>

@@ -11,7 +11,7 @@ export default function Socials() {
 				<Image
 					className="m-2 hover:scale-105"
 					alt="github logo"
-					src="/../public/socials/github-mark-white.png"
+					src="/../public/static/socials/github-mark-white.png"
 					height={30}
 					width={55}
 				/>
@@ -24,7 +24,7 @@ export default function Socials() {
 				<Image
 					className="mt-3 ml-2 mr-2 hover:scale-105"
 					alt="linked-in logo"
-					src="/../public/socials/medium.png"
+					src="/../public/static/socials/medium.png"
 					height={30}
 					width={55}
 				/>
@@ -37,7 +37,7 @@ export default function Socials() {
 				<Image
 					className="mt-5 ml-2 mr-2 hover:scale-105"
 					alt="linked-in logo"
-					src="/../public/socials/ln-white-1.png"
+					src="/../public/static/socials/ln-white-1.png"
 					height={30}
 					width={55}
 				/>
@@ -50,7 +50,7 @@ export default function Socials() {
 				<Image
 					className="ml-2 mr-2 mt-3 hover:scale-105"
 					alt="email icon"
-					src="/../public/socials/email-white.png"
+					src="/../public/static/socials/email-white.png"
 					height={30}
 					width={55}
 				/>
