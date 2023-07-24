@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { ProjectModel } from '../models/projectModel';
+import comingSoon from '../../public/coming_soon1.jpeg';
 
 export interface ProjectProps {
 	key: number;
@@ -17,7 +18,7 @@ export default function Project({ project }: ProjectProps) {
 				<div className="bg-gray-100 p-6 rounded-lg min-h-full hover:cursor-pointer hover:scale-105">
 					<Image
 						className="h-120 rounded w-full object-cover object-center mb-6"
-						src={project.image_url ? project.image_url : '/../public/coming_soon1.jpeg'}
+						src={project.image_url ? project.image_url : comingSoon}
 						alt="project screenshot"
 						height={500}
 						width={720}
