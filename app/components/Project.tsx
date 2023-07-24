@@ -17,8 +17,8 @@ export default function Project({ project }: ProjectProps) {
 				<div className="bg-gray-100 p-6 rounded-lg min-h-full hover:cursor-pointer hover:scale-105">
 					<Image
 						className="h-120 rounded w-full object-cover object-center mb-6"
-						src={project.image_url ? project.image_url : '/../public/static/coming_soon.jpeg'}
-						alt="content"
+						src={project.image_url ? project.image_url : '/../public/static/coming_soon1.jpeg'}
+						alt="project screenshot"
 						height={500}
 						width={720}
 					/>
