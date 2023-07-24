@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Socials from './shared/Socials';
-// import Buttons from './shared/Buttons';
 
 export default function Hero() {
 	return (
@@ -24,7 +23,6 @@ export default function Hero() {
 					</h1>
 					<p className="mb-2 leading-relaxed font-medium text-gray-300">I&apos;m a Florida-based Software Engineer with a background in Healthcare and Project Management 👩‍💻 </p>
 					<p className="mb-8 leading-relaxed font-medium text-gray-300">I am looking for my next career opportunity. Please reach out to see how I can help your team!</p>
-					{/* <Buttons /> */}
 					<div className="flex justify-center">
 						<a
 							href="https://docs.google.com/document/d/15GM5uc_WCekFqrclNi2-AW8xl1Y2qdjvGTno2DbRWsw/edit?usp=sharing"
