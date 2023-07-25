@@ -14,7 +14,7 @@ export default function AboutHero() {
 						height={500}
 						width={720}
 						priority={true}
-						placeholder="empty"
+						placeholder="blur"
 					/>
 				</div>
 				<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
