@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { Suspense } from 'react';
 import headshot2 from '../../public/spike_cass1.jpeg';
 
 export default function AboutHero() {
@@ -8,30 +7,15 @@ export default function AboutHero() {
 		<section className="text-gray-600 body-font">
 			<div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 				<div className="lg:max-w-xl lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-					<Suspense
-						fallback={
-							<div className="flex">
-								<div className="relative">
-									<div
-										className="w-12 h-12 rounded-full absolute
-								border border-4 border-solid border-gray-200"
-									></div>
-									<div
-										className="w-12 h-12 rounded-full animate-spin absolute
-								border border-4 border-solid border-teal-500 border-t-transparent"
-									></div>
-								</div>
-							</div>
-						}
-					>
-						<Image
-							className="object-cover object-center rounded"
-							alt="headshot with cat"
-							src={headshot2}
-							height={500}
-							width={720}
-						/>
-					</Suspense>
+					<Image
+						className="object-cover object-center rounded"
+						alt="headshot with cat"
+						src={headshot2}
+						height={500}
+						width={720}
+						priority={true}
+						placeholder="empty"
+					/>
 				</div>
 				<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
 					<h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-gray-300">Hi again! I&apos;m Cassandra.</h1>
