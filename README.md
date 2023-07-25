@@ -5,7 +5,7 @@ This is my professional portfolio project, built in [Next.js](https://nextjs.org
 
 Here, you can learn a little more about me and see some of the favorite projects I've worked on. 
 
-Check it out: [LIVE](https://cassandra-curcio-dev.vercel.app/)
+Check it out: [LIVE](https://www.cassandracurcio.com/)
 
 ## Preview
 
