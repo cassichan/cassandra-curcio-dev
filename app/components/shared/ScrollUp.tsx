@@ -28,7 +28,7 @@ export default function ScrollUp() {
 
 	return (
 		<button
-			className="fixed bottom-2 left-3 bg-teal-500 w-10 h-10 rounded-full shadow-lg hover:bg-teal-600 z-50 text-white"
+			className="fixed bottom-3 left-3 bg-teal-500 w-12 h-12 rounded-full shadow-lg hover:bg-teal-600 z-50 text-white  text-2xl"
 			onClick={scrollToTop}
 			style={{ display: showButton ? 'block' : 'none' }}
 		>
