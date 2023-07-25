@@ -32,7 +32,7 @@ export default function ScrollUp() {
 			onClick={scrollToTop}
 			style={{ display: showButton ? 'block' : 'none' }}
 		>
-			⬆
+			↑
 		</button>
 	);
 }
