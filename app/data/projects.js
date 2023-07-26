@@ -41,10 +41,10 @@ export const projects = [
 		title: "'Landing Page-V1' for Goin-Travel.co 🇨🇴",
 		subtitle: 'The Digital Tour Guide of Colombia',
 		description:
-			'Goin-Travel is a Travel and Tourism app for travelers to find hotels, places, and recreation in Colombia, as well as for the distribution of digital menus and dissemination of events.  Landing page to be used for marketing purposes',
+			'Goin-Travel is a Travel and Tourism app for travelers to find hotels, places, and recreation in Colombia, as well as for the distribution of digital menus and dissemination of events.  Landing page to be used for marketing purposes.',
 		tech: 'Technologies used: Angular, HTML, SCSS, PrimeNG',
 		image_url: goinLP1,
-		live_url: 'https://gointravel.co/landing-page',
+		live_url: 'https://dev.gointravel.co/landing-page',
 		github_url: '',
 	},
 	{
@@ -52,10 +52,10 @@ export const projects = [
 		title: "'Landing Page-V2' for Goin-Travel.co 🇨🇴",
 		subtitle: 'The Digital Tour Guide of Colombia',
 		description:
-			'Goin-Travel is a Travel and Tourism app for travelers to find hotels, places, and recreation in Colombia, as well as for the distribution of digital menus and dissemination of events. Landing page to be used for marketing purposes',
+			'Goin-Travel is a Travel and Tourism app for travelers to find hotels, places, and recreation in Colombia, as well as for the distribution of digital menus and dissemination of events. Landing page to be used for marketing purposes.',
 		tech: 'Technologies used: Angular, HTML, SCSS, PrimeNG',
 		image_url: goinLP2,
-		live_url: 'https://gointravel.co/landing-page-2',
+		live_url: 'https://dev.gointravel.co/landing-page-2',
 		github_url: '',
 	},
 	{
