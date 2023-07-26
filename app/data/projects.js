@@ -8,9 +8,9 @@ export const projects = [
 	{
 		id: 1,
 		title: 'Chance 4 Pets 🐱',
-		subtitle: 'A Bridge Between Pet Adopters and Animal Rescues',
+		subtitle: 'A Bridge Between Pet Adopters and Rescues',
 		description:
-			'Chance 4 Pets is a full stack React web app that allows users to view animals available for adoption from several local animal rescues, create an account, login, favorite animals, as well as to report an animal in need of shelter intake',
+			'Chance 4 Pets is a full stack React web app that allows users to view animals available for adoption from local animal rescues, create an account, login, favorite animals, as well as to report an animal in need of shelter intake.',
 		tech: 'Technologies used: React, CSS, Ant Design, MongoDB, GCP, Node.js, Express',
 		image_url: chance4Pets,
 		live_url: 'https://animal-rescue-frontend-js.web.app/',
@@ -19,8 +19,8 @@ export const projects = [
 	{
 		id: 2,
 		title: 'Love Thy Neighbor ❤️',
-		subtitle: 'Share the love',
-		description: 'Love Thy Neighbor is a full stack React web app that allows users to create and view love letters',
+		subtitle: 'Sharing the love- One letter at a time',
+		description: 'Love Thy Neighbor is a full stack React web app that allows users to create and view love letters. Lifting others up is something I love to do, and I wanted to create a platform for others to do the same.',
 		tech: 'Technologies used: React, CSS, Ant Design, GCP, Node.js, Express',
 		image_url: loveThyNeighbor,
 		live_url: 'https://love-letter-web-cc.web.app/',
@@ -62,7 +62,7 @@ export const projects = [
 		id: 6,
 		title: "'Image Editor' Prototype for Goin-Travel.co 📷",
 		subtitle: 'The Digital Tour Guide of Colombia',
-		description: 'This feature allows users to rotate, flip, grayscale, and download various file types of images. Further UX/UI design and functionality to be implemented in future iterations',
+		description: 'This feature allows users to rotate, flip, grayscale, and download various file types of images. Further UX/UI design and functionality to be implemented in future iterations.',
 		tech: 'Technologies used: Angular, HTML, SCSS, Photon',
 		image_url: goinImageEdit,
 		live_url: 'https://gointravel.co/toolbox/image-editor',
