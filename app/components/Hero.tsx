@@ -22,7 +22,7 @@ export default function Hero() {
 						<br className="hidden lg:inline-block" />
 						Nice to meet you! ✨
 					</h1>
-					<p className="mb-2 leading-relaxed font-medium text-gray-300">I&apos;m a Florida-based Software Engineer with a background in Healthcare and Project Management 👩‍💻 </p>
+					<p className="mb-2 leading-relaxed font-medium text-gray-300">I&apos;m a Florida-based Software Developer with a background in Healthcare and Project Management 👩‍💻 </p>
 					<p className="mb-8 leading-relaxed font-medium text-gray-300">I am looking for my next career opportunity. Please reach out to see how I can help your team!</p>
 					<div className="flex justify-center">
 						<a
