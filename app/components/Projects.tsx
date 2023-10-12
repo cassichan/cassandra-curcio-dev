@@ -12,7 +12,7 @@ export default function Projects() {
 						<div className="h-1 w-20 bg-teal-500 rounded"></div>
 					</div>
 					<p className="lg:w-1/2 w-full leading-relaxed text-gray-300">
-						I am passionate about code, specifically using it to bring joy to others, improve lives, and solve meaningful problems. For me, there&apos;s nothing like bringing a new functionality to an application.
+						I am passionate about code, specifically using it to bring joy to others, improve lives, and solve meaningful problems. For me, there&apos;s nothing like adding or improving functionality to an application. 
 					</p>
 				</div>
 
