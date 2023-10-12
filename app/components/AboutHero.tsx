@@ -19,28 +19,32 @@ export default function AboutHero() {
 				</div>
 				<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
 					<h1 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-gray-300">Hi again! I&apos;m Cassandra.</h1>
-					<h2 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-gray-300">I&apos;m a Software Developer based in Florida ☀️</h2>
+					<h2 className="title-font sm:text-4xl text-3xl mb-8 font-medium text-gray-300">I&apos;m a Full Stack Software Developer based in Florida ☀️</h2>
 					<p className="mb-8 leading-relaxed font-medium text-gray-300">
 						{' '}
-						I&apos;m a recent graduate of Boca Code&apos;s software engineering bootcamp, where I had the privilege of working at upon graduation as a Software Engineer and Project Manager.
+						My background - Graduate of Boca Code&apos;s software engineering career course. I had the privilege of working there upon graduation as a Software Engineer and Project Manager. Currently coding at GoinTravel ✈️
 					</p>
 					<p className="mb-8 leading-relaxed font-medium text-gray-300">
 						{' '}
-						My education- Bachelor&apos;s Degree in Nursing and a Master&apos;s Degree in Nutrition from Nova Southeastern University 🍏
+						My current tech stack- Angular, NEST.js, and PostgreSQL 😻
 					</p>
 					<p className="mb-8 leading-relaxed font-medium text-gray-300">
-						I&apos;ve impacted hundreds of lives through 8 years of experience as a Registered Nurse 💊
+						{' '}
+						My education - Bachelor&apos;s Degree in Nursing and a Master&apos;s Degree in Nutrition from Nova Southeastern University 🍏
+					</p>
+					<p className="mb-8 leading-relaxed font-medium text-gray-300">
+						I&apos;ve impacted hundreds of lives through 8 years of experience as a Registered Nurse 💊. I&apos;m thrilled to now make a difference through code! 👩‍💻
 
 					</p>
-					<p className="mb-8 leading-relaxed font-medium text-gray-300">
+					{/* <p className="mb-8 leading-relaxed font-medium text-gray-300">
 						I&apos;m thrilled to now make a difference through code! 👩‍💻
-					</p>
+					</p> */}
 					<p className="mb-8 leading-relaxed font-medium text-gray-300">
 						I bring with me a firm understanding of the Software Development Life Cycle, User Experience and Team Collaboration. I&apos;m passionate about building accessible, intuitive, and inclusive
 						applications and fostering fun and efficient work environments.
 					</p>
 					<p className="mb-8 leading-relaxed font-medium text-gray-300">Aside from my love for code, I&apos;m a huge Nintendo, Food, and Animal lover. 🐱</p>
-					<p className="mb-10 leading-relaxed font-medium text-gray-300">I&apos;m currently looking for my next career opportunity. Please reach out to see how I can help your team!</p>
+					<p className="mb-10 leading-relaxed font-medium text-gray-300">I&apos;m open to new career opportunities. Please reach out to see how I can help your team!</p>
 					<div className="flex justify-center">
 						<a
 							href="https://docs.google.com/document/d/15GM5uc_WCekFqrclNi2-AW8xl1Y2qdjvGTno2DbRWsw/edit?usp=sharing"
