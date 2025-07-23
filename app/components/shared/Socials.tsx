@@ -47,7 +47,7 @@ export default function Socials() {
 				/>
 			</a>
 			<a
-				href="mailto:cassandra.curcio@gmail.com"
+				href="mailto:cassandra@twonerdycats.com"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
