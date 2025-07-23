@@ -1,7 +1,7 @@
 export default function Footer() {
 	return (
 		<footer className="flex flex-col items-center justify-center w-full h-24">
-			<p className="text-sm text-gray-400">© 2023</p>
+			<p className="text-sm text-gray-400">© 2025</p>
 			<a
 				href="https://github.com/cassichan/cassandra-curcio-dev"
 				target="_blank"
